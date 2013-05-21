@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E6BF1B8A174BBED4001D4AA0 /* CocoaTorrentClientAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6BF1B8B174BBED4001D4AA0 /* Build configuration list for PBXAggregateTarget "CocoaTorrentClientAggregate" */;
+			buildPhases = (
+				E6BF1B8E174BBEF4001D4AA0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CocoaTorrentClientAggregate;
+			productName = CocoaTorrentClientAggregate;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		E6BF1B4A174B378C001D4AA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF1B49174B378C001D4AA0 /* UIKit.framework */; };
 		E6BF1B4C174B378C001D4AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF1B4B174B378C001D4AA0 /* Foundation.framework */; };
@@ -19,6 +33,17 @@
 		E6BF1B63174B378C001D4AA0 /* PXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF1B62174B378C001D4AA0 /* PXViewController.m */; };
 		E6BF1B66174B378C001D4AA0 /* PXViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BF1B64174B378C001D4AA0 /* PXViewController_iPhone.xib */; };
 		E6BF1B69174B378C001D4AA0 /* PXViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6BF1B67174B378C001D4AA0 /* PXViewController_iPad.xib */; };
+		E6BF1B75174B3887001D4AA0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF1B74174B3887001D4AA0 /* CoreFoundation.framework */; };
+		E6BF1B7B174B3887001D4AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6BF1B79174B3887001D4AA0 /* InfoPlist.strings */; };
+		E6BF1B84174BB83B001D4AA0 /* CocoaTorrentClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BF1B83174BB79F001D4AA0 /* CocoaTorrentClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6BF1B88174BB9B7001D4AA0 /* PXTorrentServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BF1B86174BB9B7001D4AA0 /* PXTorrentServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6BF1B89174BB9B7001D4AA0 /* PXTorrentServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF1B87174BB9B7001D4AA0 /* PXTorrentServer.m */; };
+		E6BF1BD1174BF2CF001D4AA0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF1BCF174BF2C4001D4AA0 /* CFNetwork.framework */; };
+		E6BF1BD2174BF2D6001D4AA0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF1BCD174BF2BF001D4AA0 /* Security.framework */; };
+		E6BF1BD8174BF332001D4AA0 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BF1BD4174BF332001D4AA0 /* GCDAsyncSocket.h */; };
+		E6BF1BD9174BF332001D4AA0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF1BD5174BF332001D4AA0 /* GCDAsyncSocket.m */; };
+		E6BF1BDA174BF332001D4AA0 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BF1BD6174BF332001D4AA0 /* GCDAsyncUdpSocket.h */; };
+		E6BF1BDB174BF332001D4AA0 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BF1BD7174BF332001D4AA0 /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +64,20 @@
 		E6BF1B62174B378C001D4AA0 /* PXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXViewController.m; sourceTree = "<group>"; };
 		E6BF1B65174B378C001D4AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXViewController_iPhone.xib; sourceTree = "<group>"; };
 		E6BF1B68174B378C001D4AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PXViewController_iPad.xib; sourceTree = "<group>"; };
+		E6BF1B73174B3887001D4AA0 /* CocoaTorrentClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaTorrentClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BF1B74174B3887001D4AA0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E6BF1B78174B3887001D4AA0 /* CocoaTorrentClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaTorrentClient-Info.plist"; sourceTree = "<group>"; };
+		E6BF1B7A174B3887001D4AA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6BF1B7C174B3887001D4AA0 /* CocoaTorrentClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaTorrentClient-Prefix.pch"; sourceTree = "<group>"; };
+		E6BF1B83174BB79F001D4AA0 /* CocoaTorrentClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaTorrentClient.h; sourceTree = "<group>"; };
+		E6BF1B86174BB9B7001D4AA0 /* PXTorrentServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXTorrentServer.h; sourceTree = "<group>"; };
+		E6BF1B87174BB9B7001D4AA0 /* PXTorrentServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXTorrentServer.m; sourceTree = "<group>"; };
+		E6BF1BCD174BF2BF001D4AA0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E6BF1BCF174BF2C4001D4AA0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E6BF1BD4174BF332001D4AA0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		E6BF1BD5174BF332001D4AA0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		E6BF1BD6174BF332001D4AA0 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		E6BF1BD7174BF332001D4AA0 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +91,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6BF1B70174B3887001D4AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF1BD2174BF2D6001D4AA0 /* Security.framework in Frameworks */,
+				E6BF1BD1174BF2CF001D4AA0 /* CFNetwork.framework in Frameworks */,
+				E6BF1B75174B3887001D4AA0 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E6BF1B4F174B378C001D4AA0 /* CocoaTorrentClientTest */,
+				E6BF1B76174B3887001D4AA0 /* CocoaTorrentClient */,
 				E6BF1B48174B378C001D4AA0 /* Frameworks */,
 				E6BF1B47174B378C001D4AA0 /* Products */,
 			);
@@ -68,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				E6BF1B46174B378C001D4AA0 /* CocoaTorrentClientTest.app */,
+				E6BF1B73174B3887001D4AA0 /* CocoaTorrentClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +126,12 @@
 		E6BF1B48174B378C001D4AA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6BF1BCF174BF2C4001D4AA0 /* CFNetwork.framework */,
+				E6BF1BCD174BF2BF001D4AA0 /* Security.framework */,
 				E6BF1B49174B378C001D4AA0 /* UIKit.framework */,
 				E6BF1B4B174B378C001D4AA0 /* Foundation.framework */,
 				E6BF1B4D174B378C001D4AA0 /* CoreGraphics.framework */,
+				E6BF1B74174B3887001D4AA0 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,7 +164,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E6BF1B76174B3887001D4AA0 /* CocoaTorrentClient */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF1BCC174BF2A0001D4AA0 /* lib */,
+				E6BF1B83174BB79F001D4AA0 /* CocoaTorrentClient.h */,
+				E6BF1B77174B3887001D4AA0 /* Supporting Files */,
+				E6BF1B86174BB9B7001D4AA0 /* PXTorrentServer.h */,
+				E6BF1B87174BB9B7001D4AA0 /* PXTorrentServer.m */,
+			);
+			path = CocoaTorrentClient;
+			sourceTree = "<group>";
+		};
+		E6BF1B77174B3887001D4AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF1B78174B3887001D4AA0 /* CocoaTorrentClient-Info.plist */,
+				E6BF1B79174B3887001D4AA0 /* InfoPlist.strings */,
+				E6BF1B7C174B3887001D4AA0 /* CocoaTorrentClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6BF1BCC174BF2A0001D4AA0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF1BD3174BF31F001D4AA0 /* CocoaAsyncSocket */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		E6BF1BD3174BF31F001D4AA0 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF1BD4174BF332001D4AA0 /* GCDAsyncSocket.h */,
+				E6BF1BD5174BF332001D4AA0 /* GCDAsyncSocket.m */,
+				E6BF1BD6174BF332001D4AA0 /* GCDAsyncUdpSocket.h */,
+				E6BF1BD7174BF332001D4AA0 /* GCDAsyncUdpSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E6BF1B80174BB633001D4AA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF1B84174BB83B001D4AA0 /* CocoaTorrentClient.h in Headers */,
+				E6BF1B88174BB9B7001D4AA0 /* PXTorrentServer.h in Headers */,
+				E6BF1BD8174BF332001D4AA0 /* GCDAsyncSocket.h in Headers */,
+				E6BF1BDA174BF332001D4AA0 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E6BF1B45174B378C001D4AA0 /* CocoaTorrentClientTest */ = {
@@ -129,6 +238,24 @@
 			productName = CocoaTorrentClientTest;
 			productReference = E6BF1B46174B378C001D4AA0 /* CocoaTorrentClientTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E6BF1B72174B3887001D4AA0 /* CocoaTorrentClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BF1B7D174B3887001D4AA0 /* Build configuration list for PBXNativeTarget "CocoaTorrentClient" */;
+			buildPhases = (
+				E6BF1B6F174B3887001D4AA0 /* Sources */,
+				E6BF1B80174BB633001D4AA0 /* Headers */,
+				E6BF1B70174B3887001D4AA0 /* Frameworks */,
+				E6BF1B71174B3887001D4AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaTorrentClient;
+			productName = CocoaTorrentClient;
+			productReference = E6BF1B73174B3887001D4AA0 /* CocoaTorrentClient.framework */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -153,6 +280,8 @@
 			projectRoot = "";
 			targets = (
 				E6BF1B45174B378C001D4AA0 /* CocoaTorrentClientTest */,
+				E6BF1B72174B3887001D4AA0 /* CocoaTorrentClient */,
+				E6BF1B8A174BBED4001D4AA0 /* CocoaTorrentClientAggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -171,7 +300,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6BF1B71174B3887001D4AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF1B7B174B3887001D4AA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6BF1B8E174BBEF4001D4AA0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n\nFMK_NAME=CocoaTorrentClient\n\nFMK_VERSION=1\n\n\n\n# Install dir will be the final output to the framework.\n\n# The following line create it in the root folder of the current project.\n\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n\n\n# Building both architectures.\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n\n\n# Cleaning the oldest.\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\n\n\n# Creates and renews the final product folder.\n\nmkdir -p \"${INSTALL_DIR}\"\n\nmkdir -p \"${INSTALL_DIR}/Versions\"\n\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\n\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\n\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n\n\n# Creates the internal links.\n\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\n\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\n\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\n\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\n\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n\n\n# Copies the headers and resources files to the final product folder.\n\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n\n\n# Removes the binary and header from the resources folder.\n\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\n\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6BF1B42174B378C001D4AA0 /* Sources */ = {
@@ -181,6 +334,16 @@
 				E6BF1B56174B378C001D4AA0 /* main.m in Sources */,
 				E6BF1B5A174B378C001D4AA0 /* PXAppDelegate.m in Sources */,
 				E6BF1B63174B378C001D4AA0 /* PXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BF1B6F174B3887001D4AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BF1B89174BB9B7001D4AA0 /* PXTorrentServer.m in Sources */,
+				E6BF1BD9174BF332001D4AA0 /* GCDAsyncSocket.m in Sources */,
+				E6BF1BDB174BF332001D4AA0 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +372,14 @@
 				E6BF1B68174B378C001D4AA0 /* en */,
 			);
 			name = PXViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		E6BF1B79174B3887001D4AA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BF1B7A174B3887001D4AA0 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,9 +446,14 @@
 		E6BF1B6D174B378C001D4AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Products\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaTorrentClientTest/CocoaTorrentClientTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaTorrentClientTest/CocoaTorrentClientTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,11 +462,87 @@
 		E6BF1B6E174B378C001D4AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Products\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaTorrentClientTest/CocoaTorrentClientTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaTorrentClientTest/CocoaTorrentClientTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6BF1B7E174B3887001D4AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Products\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTorrentClient/CocoaTorrentClient-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CocoaTorrentClient/CocoaTorrentClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		E6BF1B7F174B3887001D4AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Products\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTorrentClient/CocoaTorrentClient-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CocoaTorrentClient/CocoaTorrentClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		E6BF1B8C174BBED4001D4AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6BF1B8D174BBED4001D4AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -311,6 +563,22 @@
 			buildConfigurations = (
 				E6BF1B6D174B378C001D4AA0 /* Debug */,
 				E6BF1B6E174B378C001D4AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6BF1B7D174B3887001D4AA0 /* Build configuration list for PBXNativeTarget "CocoaTorrentClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BF1B7E174B3887001D4AA0 /* Debug */,
+				E6BF1B7F174B3887001D4AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6BF1B8B174BBED4001D4AA0 /* Build configuration list for PBXAggregateTarget "CocoaTorrentClientAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BF1B8C174BBED4001D4AA0 /* Debug */,
+				E6BF1B8D174BBED4001D4AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
